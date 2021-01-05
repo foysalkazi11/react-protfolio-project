@@ -1,0 +1,12 @@
+ .header-container .header-info .typed-container .typed-text{
+  font-size: 2rem;
+  color: var(--fontWhite);
+  letter-spacing: 3px;
+}
+
+@media(max-width:500px){
+  .header-container .header-info .typed-container .typed-text{
+    font-size: 1.5rem;
+    
+  }
+}

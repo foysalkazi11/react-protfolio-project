@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import "./NavBar.css";
+@import "./header.css";
+@import "./typed.css";
+@import "./particles.css";
+
+:root{
+  --fontColor:#222;
+  --navBackgroun:#2d3436;
+  --fontWhite:#f2f2f2;
+  --monlightBlue:#2c3e50;
+  --buttonBorder:#e67e22;
+  --buttonHover:#d35400;
+  --cp1color1:#1c2b2d;
+  --cp1color2:#1f6f8b;
+  --cp1color3:#99a8b2;
+  --cp1color4:#e6d5b8;
+
+  --cp2color1:#1d2d50;
+  --cp2color2:#133b5c;
+  --cp2color3:#1e5f74;
+  --cp2color4:#fcdab7;
+
+  --transition: all .3s linear;
+  
+}
+
+
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  color: var(--fontColor);
+  
+}
