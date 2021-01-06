@@ -1,12 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import "./NavBar.css";
 @import "./header.css";
 @import "./typed.css";
 @import "./particles.css";
+@import "./aboutMe.css";
+
+.color-collect-from-html5{
+    color: #ddd;
+		background: #fff;
+    color: #bbb;
+    color: #555 ;
+    background: #4f4f4f;
+    background-color: #43bff0;
+    background-color: #3BA8D3;
+    background-color: #444;
+    background-color: #4f4f4f;
+    background-color: #3f3f3f;
+    color: #666;
+    color: #3e3e3e;
+    background-color: #282828;
+    background: #383838;
+    background: #484848;
+}
 
 :root{
   --fontColor:#222;
   --navBackgroun:#2d3436;
+  --navBackgroun2:#282828;
   --fontWhite:#f2f2f2;
   --monlightBlue:#2c3e50;
   --buttonBorder:#e67e22;
@@ -37,5 +58,18 @@
 }
 body{
   color: var(--fontColor);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6rem;
+		font-weight: 300;
   
 }
+
+.section{
+  width: 100%;
+  max-width: 960px;
+  min-height: auto;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  
+}
+

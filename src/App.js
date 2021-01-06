@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NavBar, Header, Paricles } from "./components/AllComponents";
+import { NavBar, Header, Paricles, AboutMe } from "./components/AllComponents";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Paricles />
       <NavBar />
       <Header />
+      <AboutMe />
     </Router>
   );
 };

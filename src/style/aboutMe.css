@@ -1,0 +1,62 @@
+
+.aboutMe-container .aboutMe-info{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 2rem 1rem ;
+  
+}
+.aboutMe-container .aboutMe-info h1{
+  font-weight: 300;
+  font-size: 2rem;
+  
+}
+.aboutMe-container .aboutMe-info h1,
+.aboutMe-container .profile-info .sub-heading{
+  margin-bottom: 1rem;
+
+}
+.aboutMe-container .profile-info .sub-heading{
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+.aboutMe-container .aboutMe-info h1 span{
+  font-weight: 700;
+  
+}
+.aboutMe-container .aboutMe-info .profile-pic,
+.aboutMe-container .aboutMe-info .profile-info{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  
+}
+
+.aboutMe-container .aboutMe-info .profile-pic {
+  width:250px;
+  height: 250px;
+  
+}
+@media(max-width:500px){
+  .aboutMe-container .aboutMe-info .profile-pic {
+    width:160px;
+    height: 160px;
+    
+  }
+}
+.aboutMe-container .aboutMe-info .profile-pic img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--buttonBorder);
+  padding: 5px;
+}
