@@ -5,6 +5,7 @@
 @import "./typed.css";
 @import "./particles.css";
 @import "./aboutMe.css";
+@import "./skills.css";
 
 .color-collect-from-html5{
     color: #ddd;
@@ -29,6 +30,9 @@
   --navBackgroun:#2d3436;
   --navBackgroun2:#282828;
   --fontWhite:#f2f2f2;
+  --light-gray:#f4f4f4;
+  --light-gray2:#fafafa;
+  --dark-gray:#4f4f4f;
   --monlightBlue:#2c3e50;
   --buttonBorder:#e67e22;
   --buttonHover:#d35400;
@@ -61,6 +65,11 @@ body{
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6rem;
 		font-weight: 300;
+  
+}
+.wraper{
+  width: 100%;
+  height: auto;
   
 }
 
