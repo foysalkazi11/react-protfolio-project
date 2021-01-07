@@ -5,7 +5,8 @@ import {
   Header,
   Paricles,
   AboutMe,
-  Skills
+  Skills,
+  Project
 } from "./components/AllComponents";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <AboutMe />
       <Skills />
+      <Project />
     </Router>
   );
 };

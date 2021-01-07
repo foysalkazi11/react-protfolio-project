@@ -6,6 +6,8 @@
 @import "./particles.css";
 @import "./aboutMe.css";
 @import "./skills.css";
+@import "./project.css";
+@import "./popup.css";
 
 .color-collect-from-html5{
     color: #ddd;
@@ -31,10 +33,13 @@
   --navBackgroun2:#282828;
   --fontWhite:#f2f2f2;
   --light-gray:#f4f4f4;
+  --primary-gray:#cdd1d9;
   --light-gray2:#fafafa;
   --dark-gray:#4f4f4f;
+  --dark-gray2:#666666;
   --monlightBlue:#2c3e50;
   --buttonBorder:#e67e22;
+  --buttonBorderHover:rgba(230, 126, 34,0.5);
   --buttonHover:#d35400;
   --cp1color1:#1c2b2d;
   --cp1color2:#1f6f8b;
@@ -46,7 +51,7 @@
   --cp2color3:#1e5f74;
   --cp2color4:#fcdab7;
 
-  --transition: all .3s linear;
+  --transition: all .3s ease-in-out;
   
 }
 

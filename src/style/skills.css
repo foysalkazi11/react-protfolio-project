@@ -1,6 +1,6 @@
 .skills-wraper{
   /* background-color: #fafafa; */
-  background-color: var(--light-gray);
+  background-color: var(--primary-gray);
 }
 .skills-container .skills-info{
   width: 100%;
