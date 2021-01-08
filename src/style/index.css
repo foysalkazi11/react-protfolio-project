@@ -8,6 +8,7 @@
 @import "./skills.css";
 @import "./project.css";
 @import "./popup.css";
+@import "./contractForm.css";
 
 .color-collect-from-html5{
     color: #ddd;
@@ -29,6 +30,7 @@
 
 :root{
   --fontColor:#222;
+  --fontColor2:#3e3e3e;
   --navBackgroun:#2d3436;
   --navBackgroun2:#282828;
   --fontWhite:#f2f2f2;
@@ -37,6 +39,7 @@
   --light-gray2:#fafafa;
   --dark-gray:#4f4f4f;
   --dark-gray2:#666666;
+  --background-dark:#303030;
   --monlightBlue:#2c3e50;
   --buttonBorder:#e67e22;
   --buttonBorderHover:rgba(230, 126, 34,0.5);
@@ -66,7 +69,7 @@
   text-decoration: none;
 }
 body{
-  color: var(--fontColor);
+  color: var(--fontColor2);
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6rem;
 		font-weight: 300;

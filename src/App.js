@@ -1,4 +1,6 @@
 import React from "react";
+import { ToastContainer } from "./utility/notification";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import {
   NavBar,
@@ -6,19 +8,26 @@ import {
   Paricles,
   AboutMe,
   Skills,
-  Project
+  Project,
+  ContractForm
 } from "./components/AllComponents";
 
 const App = () => {
   return (
-    <Router>
-      <Paricles />
-      <NavBar />
-      <Header />
-      <AboutMe />
-      <Skills />
-      <Project />
-    </Router>
+    <>
+      <ToastContainer />
+      <Router>
+        <Paricles />
+
+        <NavBar />
+
+        <Header />
+        <AboutMe />
+        <Skills />
+        <Project />
+        <ContractForm />
+      </Router>
+    </>
   );
 };
 
