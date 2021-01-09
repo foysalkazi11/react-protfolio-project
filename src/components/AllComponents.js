@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Project from "./Project";
 import ContractForm from "./ContractForm";
+import Footer from "./Footer";
 
 export {
   NavBar,
@@ -15,5 +16,6 @@ export {
   AboutMe,
   Skills,
   Project,
-  ContractForm
+  ContractForm,
+  Footer
 };

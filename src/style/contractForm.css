@@ -59,6 +59,7 @@
   outline-style: none;
   font-family: 'Open Sans', sans-serif;
   
+  
 }
 .contract-section form textarea:focus,
 .contract-section form input:focus{
@@ -81,6 +82,7 @@
   margin-top: 1rem;
   text-transform: uppercase;
   color: var(--fontWhite);
+  outline-style: none;
 }
 .contract-section form button:hover{
   background-color: var(--buttonHover);

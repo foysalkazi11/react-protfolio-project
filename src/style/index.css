@@ -9,6 +9,7 @@
 @import "./project.css";
 @import "./popup.css";
 @import "./contractForm.css";
+@import "./footer.css";
 
 .color-collect-from-html5{
     color: #ddd;
@@ -36,6 +37,7 @@
   --fontWhite:#f2f2f2;
   --light-gray:#f4f4f4;
   --primary-gray:#cdd1d9;
+  --primary-gray2:#bbb;
   --light-gray2:#fafafa;
   --dark-gray:#4f4f4f;
   --dark-gray2:#666666;

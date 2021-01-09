@@ -9,7 +9,8 @@ import {
   AboutMe,
   Skills,
   Project,
-  ContractForm
+  ContractForm,
+  Footer
 } from "./components/AllComponents";
 
 const App = () => {
@@ -18,14 +19,13 @@ const App = () => {
       <ToastContainer />
       <Router>
         <Paricles />
-
         <NavBar />
-
         <Header />
         <AboutMe />
         <Skills />
         <Project />
         <ContractForm />
+        <Footer />
       </Router>
     </>
   );
