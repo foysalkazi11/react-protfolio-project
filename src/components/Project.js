@@ -33,7 +33,6 @@ const projectDetails = [
 
 const Project = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
-  const [projectName, setprojectName] = useState("");
   const [projectDis, setprojectDis] = useState({
     title: "",
     img: "",
@@ -43,6 +42,7 @@ const Project = () => {
   });
   const selectProject = (name) => {
     setIsOpen(true);
+    //eslint-disable-next-line
     return projectDetails.map((project) => {
       if (project.title === name) {
         setprojectDis((pre) => {
@@ -60,7 +60,7 @@ const Project = () => {
   };
 
   return (
-    <section className="wraper project-wraper">
+    <section id="projects" className="wraper project-wraper">
       <div className="section project-container">
         <h1>Here’s some stuff I made recently.</h1>
         <div className="project-info">

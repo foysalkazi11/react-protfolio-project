@@ -3,7 +3,7 @@ import ProfilePic from "../images/profile-pic.jpg";
 
 const AboutMe = () => {
   return (
-    <section className="wraper aboutMe-wraper">
+    <section id="aboutMe" className="wraper aboutMe-wraper">
       <div className="section aboutMe-container">
         <div className="aboutMe-info">
           <div className="profile-pic">

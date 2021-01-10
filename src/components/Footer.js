@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <section className="wraper wraper-footer">
+    <section id="footer" className="wraper wraper-footer">
       <div className="section footer-container">
         <div className="info-container">
           <div className="footer-section office-info">

@@ -125,7 +125,7 @@ const ContractForm = () => {
     }
   };
   return (
-    <section className="wraper contract-raper">
+    <section id="contract" className="wraper contract-raper">
       <div className="section contract-section">
         <h1>Have me make stuff for you.</h1>
         <form action="#" onSubmit={submit}>

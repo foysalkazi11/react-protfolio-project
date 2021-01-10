@@ -29,6 +29,7 @@
   transition: var(--transition);
   margin-top: 1rem;
   text-transform: uppercase;
+  outline-style: none;
 }
 .header-container .header-info button:hover{
   background-color: var(--buttonHover);

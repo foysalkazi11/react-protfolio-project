@@ -1,5 +1,5 @@
 .aboutMe-wraper{
-  /* background-color: #fff; */
+  background-color: var(--light-gray2);
 }
 .aboutMe-container .aboutMe-info{
   width: 100%;

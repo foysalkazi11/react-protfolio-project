@@ -10,7 +10,7 @@ import mongoDB from "../images/skills/8.png";
 
 const Skills = () => {
   return (
-    <section className="wraper skills-wraper">
+    <section id="skills" className="wraper skills-wraper">
       <div className="section skills-container">
         <h1>Here's all the skills I have</h1>
         <div className="skills-info">

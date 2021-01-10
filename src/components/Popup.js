@@ -32,6 +32,7 @@ function Popup({ modalIsOpen, setIsOpen, projectDis }) {
         </p>
         <b>Demo : </b>{" "}
         <Link
+          to="#"
           className="hyper-link"
           onClick={() => window.open(projectDis.demoUrl, "_blank")}
         >
@@ -40,6 +41,7 @@ function Popup({ modalIsOpen, setIsOpen, projectDis }) {
         <br />
         <b>Github : </b>{" "}
         <Link
+          to="#"
           className="hyper-link"
           onClick={() => window.open(projectDis.demoUrl, "_blank")}
         >

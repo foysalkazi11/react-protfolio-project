@@ -1,6 +1,6 @@
 .project-wraper{
   /* background-color: #fafafa; */
-  /* background-color: var(--primary-gray); */
+  background-color: var(--light-gray2);
 }
 .project-container .project-info{
   width: 100%;
