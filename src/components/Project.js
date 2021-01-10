@@ -26,7 +26,7 @@ const projectDetails = [
     img: githubUserSearch,
     technologyUse:
       "React, React-hooks, React-context-api,Github user Api,Css flexbox and grid",
-    demoUrl: "https://github.com/foysalkazi11/react-githubUserSearch-project",
+    demoUrl: "https://eager-sammet-6d459c.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/react-githubUserSearch-project"
   }
 ];
