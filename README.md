@@ -1,1 +1,1 @@
-live demo : https://foysalkazi11.github.io/react-protfolio-project/
+Live demo : https://foysalkazi11.github.io/react-protfolio-project/
