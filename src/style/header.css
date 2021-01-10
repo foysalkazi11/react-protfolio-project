@@ -3,7 +3,7 @@
   width: 100%;
   height: calc(100vh - 57px);
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-   url('../ferenc-almasi-eYpcLDXHVb0-unsplash.jpg');
+   url('../images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,6 +29,7 @@
   transition: var(--transition);
   margin-top: 1rem;
   text-transform: uppercase;
+  outline-style: none;
 }
 .header-container .header-info button:hover{
   background-color: var(--buttonHover);

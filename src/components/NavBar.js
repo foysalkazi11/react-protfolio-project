@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 
@@ -26,89 +26,88 @@ const NavBar = () => {
   const handleClick = () => {
     setshowlink(!showlink);
   };
-  const menu = (
-    <ul className="show-link">
-      <li>
-        <NavLink exact activeClassName="active" to="/">
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink exact activeClassName="active" to="/about-me">
-          About Me
-        </NavLink>
-      </li>
-      <li>
-        <NavLink exact activeClassName="active" to="/skills">
-          Skills
-        </NavLink>
-      </li>
-      <li>
-        <NavLink exact activeClassName="active" to="/projects">
-          Projects
-        </NavLink>
-      </li>
-      <li>
-        <NavLink exact activeClassName="active" to="/contract-me">
-          Contract Me
-        </NavLink>
-      </li>
-    </ul>
-  );
 
   return (
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <ul className={`main-link`}>
-            <li>
-              <NavLink exact activeClassName="active" to="/">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact activeClassName="active" to="/about-me">
-                About Me
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact activeClassName="active" to="/skills">
-                Skills
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact activeClassName="active" to="/projects">
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact activeClassName="active" to="/contract-me">
-                Contract Me
-              </NavLink>
-            </li>
-          </ul>
+          <div
+            className={`main-link-container ${
+              showlink ? "display-link" : null
+            }`}
+          >
+            <ul className={`main-link `}>
+              <li>
+                <Link
+                  activeClass="active"
+                  offset={-58}
+                  spy={true}
+                  to="home"
+                  smooth={true}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  offset={-58}
+                  spy={true}
+                  to="aboutMe"
+                  smooth={true}
+                >
+                  About Me
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  offset={-58}
+                  spy={true}
+                  to="skills"
+                  smooth={true}
+                >
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  offset={-58}
+                  spy={true}
+                  to="projects"
+                  smooth={true}
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  offset={-58}
+                  spy={true}
+                  to="contract"
+                  smooth={true}
+                >
+                  Contract Me
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           <ul className="mobile-menu">
             {showlink ? (
               <li className="menu-icon">
-                <MdClose
-                  color="f2f2f2"
-                  fontSize="1.7rem"
-                  onClick={handleClick}
-                />
+                <MdClose color="f2f2f2" size="2rem" onClick={handleClick} />
               </li>
             ) : (
               <li className="menu-icon">
-                <FiMenu
-                  color="f2f2f2"
-                  fontSize="1.7rem"
-                  onClick={handleClick}
-                />
+                <FiMenu color="f2f2f2" size="2rem" onClick={handleClick} />
               </li>
             )}
           </ul>
         </div>
-        {showlink && menu}
+        {/* {showlink && menu} */}
       </nav>
     </>
   );

@@ -1,0 +1,100 @@
+.wraper-footer{
+  background-color:var(--fontColor);
+  color: var(--primary-gray2);
+}
+.footer-container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container .copy-right{
+  color: var(--primary-gray2);
+  font-size: 1.1rem;
+}
+.footer-container .line{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-container .line p{
+  height: 100%;
+  border: 0.5px solid var(--primary-gray2);
+  
+}
+@media(max-width:600px){
+  .footer-container .line p{
+    width: 200px;
+    border: 0.5px solid var(--primary-gray2);
+    
+  }
+}
+.footer-container .info-container{
+  width: 100%;
+  margin: 0 auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 1rem .5rem;
+  
+}
+@media(max-width:600px){
+  .footer-container .info-container{
+    grid-template-columns: 1fr;
+    
+  }
+}
+.footer-container .info-container .footer-section{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.footer-container .info-container .office-info a{
+  color: var(--primary-gray2);
+  transform: var(--transition);
+}
+.footer-container .info-container .office-info a:hover{
+  color: var(--fontWhite) ;
+  
+}
+.footer-container .info-container .sections-links a{
+  color: var(--buttonBorder);
+  transform: var(--transition);
+}
+.footer-container .info-container .sections-links a:hover{
+  color: var(--buttonHover);
+  
+}
+.footer-container .info-container  .social-icon{
+  
+  display: flex;
+  flex-direction: row ;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+.footer-container .info-container  .sections-links{
+  
+  display: flex;
+  flex-direction: row ;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer-container .info-container  .sections-links div{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row ;
+  flex-direction: column;
+}
+.footer-container .info-container  .social-icon button{
+  
+  outline-style: none;
+border: none;
+  margin: 0 5px;
+  
+}
