@@ -55,6 +55,7 @@
   border-bottom: 2px solid transparent;
   transition: var(--transition);
   letter-spacing: 3px;
+  cursor: pointer;
   
 }
 .navbar .nav-container .main-link li a:hover,
