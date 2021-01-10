@@ -18,7 +18,7 @@ const projectDetails = [
     img: cocktaildbApiProject,
     technologyUse:
       "React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
-    demoUrl: "https://github.com/foysalkazi11/react-cocktail-api-project",
+    demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
   },
   {
