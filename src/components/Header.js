@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-info">
         <Typeds />
         <button>
-          <Link smooth={true} spy={true} to="projects">
+          <Link smooth={true} spy={true} offset={-58} to="projects">
             Projects
           </Link>
         </button>
