@@ -23,11 +23,13 @@
 .footer-container .line p{
   height: 100%;
   border-left: 1px solid var(--primary-gray2);
+  border-bottom: none !important;
   
 }
 @media(max-width:600px){
   .footer-container .line p{
     width: 200px;
+    border-left: none !important;
     border-bottom: 1px solid var(--primary-gray2);
     
   }
@@ -65,6 +67,7 @@
 .footer-container .info-container .sections-links a{
   color: var(--buttonBorder);
   transform: var(--transition);
+  cursor: pointer;
 }
 .footer-container .info-container .sections-links a:hover{
   color: var(--buttonHover);
