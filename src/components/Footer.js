@@ -15,7 +15,6 @@ const Footer = () => {
       <div className="section footer-container">
         <div className="info-container">
           <div className="footer-section office-info">
-            <p>Home office</p>
             <a href="tel:+8801845630043">+8801845630043</a>
             <p>foysalkazi11@gmail.com</p>
           </div>

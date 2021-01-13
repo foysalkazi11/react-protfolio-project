@@ -13,17 +13,18 @@ const AboutMe = () => {
             <h1>
               Hi. I'm <span>Md Foysal Kazi</span>
             </h1>
-            <p className="sub-heading">Full-Stack JavaScript Developer </p>
+            <p className="sub-heading">
+              React Developer | MERN Stack Developer{" "}
+            </p>
             <p>
-              From that moment I realized that I enjoy working with computer, I
-              decided to build my career in the field of web development. I
-              started learning html, css and JavaScript one by one and soon I
-              felt I hooked up and enjoy working in this field.
+              I am self-taught web developer. Focusing on React I am also
+              learning MERN stack development. My goal is to land entry level
+              front-end/back-end web development job based on my skills. Then
+              grow my career as a web developer.
               <br /> Web development has never been “just a earning source” for
-              me, it’s offered and engaging challenge to continually learn and
-              improve my skills in creating high-quality software develop. Now
-              it’s become a fully-fledged passion that only gets more exciting
-              as the days go by.
+              me, it’s always offer me engaging challenge to continuously learn
+              and improve my skills. Now it’s become a fully-fledged passion
+              that only gets more exciting as the days go by.
             </p>
           </div>
         </div>
