@@ -6,7 +6,12 @@ const Typeds = () => {
     <div className="typed-container">
       <Typed
         className="typed-text"
-        strings={["Web Development", "Web Design", "MERN Stack Development"]}
+        strings={[
+          "Web Development",
+          "Web Design",
+          "React Developer",
+          "MERN Stack Developer"
+        ]}
         typeSpeed={40}
         backSpeed={50}
         loop
