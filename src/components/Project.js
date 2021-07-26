@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Popup from "./Popup";
 import yourMoment from "../images/project pic/your-moments.png";
-import githubUserSearch from "../images/project pic/github-user-search-project.png";
 import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
-import jsEcommerce from "../images/project pic/javaScript e-commerce project.png";
+import cloudServerSetup from "../images/project pic/cloud server setup.png";
+import marketing from "../images/project pic/marketing.png";
 import { FaSearch } from "react-icons/fa";
 const projectDetails = [
   {
@@ -15,6 +15,14 @@ const projectDetails = [
     githubUrl: "https://github.com/foysalkazi11/your-moments"
   },
   {
+    title: "React - Cloud Server Setup",
+    img: cloudServerSetup,
+    technologyUse:
+      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+    demoUrl: "https://serverify-572b3.web.app/",
+    githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup"
+  },
+  {
     title: "React - CocktailDB Api",
     img: cocktaildbApiProject,
     technologyUse:
@@ -23,21 +31,15 @@ const projectDetails = [
     githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
   },
   {
-    title: "React - Github User Api",
-    img: githubUserSearch,
+    title: "React - Marketing Team",
+    img: marketing,
     technologyUse:
-      "React, React-hooks, React-context-api,Github user Api,Css flexbox and grid",
-    demoUrl: "https://eager-sammet-6d459c.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/react-githubUserSearch-project"
+      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+    demoUrl: "https://tradezilla-3da7a.web.app/",
+    githubUrl: "https://github.com/mztechcorp/template_marketing"
   },
-  {
-    title: "JS - E-commerce Project",
-    img: jsEcommerce,
-    technologyUse:
-      " JavaScript, Grid Image Gallery, Regex, Slick Slider, Modal, Local storage and fully responsive in all device.",
-    demoUrl: "https://dream-shop.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/javaScript-ecommerce-site"
-  }
+
+ 
 ];
 
 const Project = () => {

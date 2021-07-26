@@ -1,7 +1,7 @@
 
 .Modal {
   width: 100%;
- max-width: 450px;
+ max-width: 500px;
  height: auto;
  padding: 1rem;
   background-color: var(--fontWhite);
@@ -9,6 +9,7 @@
   border: none;
   outline-style: none;
   border-radius: 5px;
+  overflow: scroll;
 }
 .Modal button{
   position: absolute;

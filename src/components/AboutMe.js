@@ -17,14 +17,11 @@ const AboutMe = () => {
               React Developer | MERN Stack Developer{" "}
             </p>
             <p>
-              I am self-taught web developer. Focusing on React I am also
-              learning MERN stack development. My goal is to land entry/medium
-              level front-end/back-end web development job based on my skills
-              and grow my career as a full-stack javaScript developer.
-              <br /> Web development has never been “just a earning source” for
-              me, it’s always offer me engaging challenge to continuously learn
-              and improve my skills. Now it’s become a fully-fledged passion
-              that only gets more exciting as the days go by.
+            Focusing on React I am also skilled at MERN stack development. My goal is to continuously  improve my skill and serve quality work by writing clean  and reusable code using the latest web development technology.<br />
+
+            Proficient in creating user interfaces, writing and testing code, troubleshooting simple/complex issues, implementing new features based on client requirement or user feedback. 
+
+              
             </p>
           </div>
         </div>

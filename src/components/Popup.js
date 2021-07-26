@@ -26,7 +26,7 @@ function Popup({ modalIsOpen, setIsOpen, projectDis }) {
           <GrFormClose className="icon-close" />
         </button>
         <img src={projectDis.img} alt={projectDis.title} />
-        <p>
+        <p >
           {" "}
           <b>Technology Used :</b> {projectDis.technologyUse}
         </p>

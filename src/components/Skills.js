@@ -7,6 +7,8 @@ import react from "../images/skills/5.png";
 import nodeJS from "../images/skills/6.png";
 import express from "../images/skills/7.jpg";
 import mongoDB from "../images/skills/8.png";
+import material from "../images/skills/9.png";
+import firebase from "../images/skills/10.jpg";
 
 const Skills = () => {
   return (
@@ -19,6 +21,8 @@ const Skills = () => {
           <img src={boostrape} alt="boostrape" />
           <img src={react} alt="react" />
           <img src={JavaScript} alt="JavaScript" />
+          <img src={material} alt="material" />
+          <img src={firebase} alt="firebase" />
 
           <img src={nodeJS} alt="nodeJS" />
           <img src={express} alt="express" />
