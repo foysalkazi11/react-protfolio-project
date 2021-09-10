@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-protfolio-project/static/css/main.08b38203.chunk.css",
-    "main.js": "/react-protfolio-project/static/js/main.41f6f1c7.chunk.js",
-    "main.js.map": "/react-protfolio-project/static/js/main.41f6f1c7.chunk.js.map",
+    "main.js": "/react-protfolio-project/static/js/main.e0be9f72.chunk.js",
+    "main.js.map": "/react-protfolio-project/static/js/main.e0be9f72.chunk.js.map",
     "runtime-main.js": "/react-protfolio-project/static/js/runtime-main.c832ca0b.js",
     "runtime-main.js.map": "/react-protfolio-project/static/js/runtime-main.c832ca0b.js.map",
     "static/css/2.83342f34.chunk.css": "/react-protfolio-project/static/css/2.83342f34.chunk.css",
@@ -13,10 +13,10 @@
     "static/css/main.08b38203.chunk.css.map": "/react-protfolio-project/static/css/main.08b38203.chunk.css.map",
     "static/js/2.66195c0b.chunk.js.LICENSE.txt": "/react-protfolio-project/static/js/2.66195c0b.chunk.js.LICENSE.txt",
     "static/media/9.0ff75928.png": "/react-protfolio-project/static/media/9.0ff75928.png",
+    "static/media/MzEcom.5c553ccf.png": "/react-protfolio-project/static/media/MzEcom.5c553ccf.png",
     "static/media/cloud server setup.4cb8529e.png": "/react-protfolio-project/static/media/cloud server setup.4cb8529e.png",
     "static/media/cocktaildb-api-project.05a1bfc7.png": "/react-protfolio-project/static/media/cocktaildb-api-project.05a1bfc7.png",
     "static/media/index.css": "/react-protfolio-project/static/media/ferenc-almasi-eYpcLDXHVb0-unsplash.138bbd73.jpg",
-    "static/media/marketing.b6fbd44f.png": "/react-protfolio-project/static/media/marketing.b6fbd44f.png",
     "static/media/profile-pic.2a897423.jpg": "/react-protfolio-project/static/media/profile-pic.2a897423.jpg",
     "static/media/your-moments.6db073ae.png": "/react-protfolio-project/static/media/your-moments.6db073ae.png"
   },
@@ -25,6 +25,6 @@
     "static/css/2.83342f34.chunk.css",
     "static/js/2.66195c0b.chunk.js",
     "static/css/main.08b38203.chunk.css",
-    "static/js/main.41f6f1c7.chunk.js"
+    "static/js/main.e0be9f72.chunk.js"
   ]
 }
