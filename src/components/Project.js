@@ -3,41 +3,46 @@ import Popup from "./Popup";
 import yourMoment from "../images/project pic/your-moments.png";
 import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
 import cloudServerSetup from "../images/project pic/cloud server setup.png";
-import marketing from "../images/project pic/marketing.png";
+// import marketing from "../images/project pic/marketing.png";
+import mzEcom from '../images/project pic/MzEcom.png'
 import { FaSearch } from "react-icons/fa";
 const projectDetails = [
   {
-    title: "MERN Stack - Moment",
+    title: "MzEcom",
+    img: mzEcom,
+    technologyUse:"React, React-redux, Material-UI, Firebase authentication, Node JS, Express JS, MySQL.",
+    demoUrl: "https://mzecom.web.app/",
+    githubUrl: "https://github.com/mztechcorp/mzecom-client"
+  },
+  {
+    title: "Moment",
     img: yourMoment,
-    technologyUse:
-      "MERN stack, User authencation with Passport and JWT,Image hosting at Cloudinary, Mapbox for Maping the places and much more",
+    technologyUse:"React, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
     demoUrl: "https://your-moments.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/your-moments"
   },
   {
-    title: "React - Cloud Server Setup",
+    title: "Cloud Server Setup",
     img: cloudServerSetup,
-    technologyUse:
-      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+    technologyUse:"React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
     demoUrl: "https://serverify-572b3.web.app/",
     githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup"
   },
   {
-    title: "React - CocktailDB Api",
+    title: "CocktailDB Api",
     img: cocktaildbApiProject,
-    technologyUse:
-      "React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
+    technologyUse:"React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
     demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
   },
-  {
-    title: "React - Marketing Team",
-    img: marketing,
-    technologyUse:
-      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
-    demoUrl: "https://tradezilla-3da7a.web.app/",
-    githubUrl: "https://github.com/mztechcorp/template_marketing"
-  },
+  // {
+  //   title: "React - Marketing Team",
+  //   img: marketing,
+  //   technologyUse:
+  //     "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+  //   demoUrl: "https://tradezilla-3da7a.web.app/",
+  //   githubUrl: "https://github.com/mztechcorp/template_marketing"
+  // },
 
  
 ];
