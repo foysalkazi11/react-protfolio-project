@@ -43,7 +43,7 @@ function Popup({ modalIsOpen, setIsOpen, projectDis }) {
         <Link
           to="#"
           className="hyper-link"
-          onClick={() => window.open(projectDis.demoUrl, "_blank")}
+          onClick={() => window.open(projectDis.githubUrl, "_blank")}
         >
           {projectDis.githubUrl}
         </Link>
