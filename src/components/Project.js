@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Popup from "./Popup";
 import yourMoment from "../images/project pic/your-moments.png";
-import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
-import cloudServerSetup from "../images/project pic/cloud server setup.png";
+// import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
+// import cloudServerSetup from "../images/project pic/cloud server setup.png";
 // import marketing from "../images/project pic/marketing.png";
-import mzEcom from '../images/project pic/MzEcom.png'
+import mzEcom from '../images/project pic/MzEcom.png';
+import furniture from '../images/project pic/Jenni-Kayne.png';
+import reactMui from '../images/project pic/reactMui.png';
 import { FaSearch } from "react-icons/fa";
 const projectDetails = [
   {
@@ -17,24 +19,38 @@ const projectDetails = [
   {
     title: "Moment",
     img: yourMoment,
-    technologyUse:"React, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
+    technologyUse:"React, React Context API, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
     demoUrl: "https://your-moments.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/your-moments"
   },
   {
-    title: "Cloud Server Setup",
-    img: cloudServerSetup,
-    technologyUse:"React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
-    demoUrl: "https://serverify-572b3.web.app/",
-    githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup"
+    title: "Furniture Store",
+    img: furniture,
+    technologyUse:"React, React Context API, Node JS, Express JS, MongoDB,JSON Web Token (JWT),",
+    demoUrl: "https://hopeful-goodall-7769f7.netlify.app/",
+    githubUrl: "https://github.com/foysalkazi11/mern-furniture-store"
   },
   {
-    title: "CocktailDB Api",
-    img: cocktaildbApiProject,
-    technologyUse:"React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
-    demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
+    title: "MUI-Design",
+    img: reactMui,
+    technologyUse:"React, Material UI",
+    demoUrl: "https://priceless-kare-1b24ef.netlify.app/",
+    githubUrl: "https://github.com/foysalkazi11/react-material-mobile-design"
   },
+  // {
+  //   title: "Cloud Server Setup",
+  //   img: cloudServerSetup,
+  //   technologyUse:"React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+  //   demoUrl: "https://serverify-572b3.web.app/",
+  //   githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup"
+  // },
+  // {
+  //   title: "CocktailDB Api",
+  //   img: cocktaildbApiProject,
+  //   technologyUse:"React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
+  //   demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
+  //   githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
+  // },
   // {
   //   title: "React - Marketing Team",
   //   img: marketing,

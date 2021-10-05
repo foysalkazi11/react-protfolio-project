@@ -9,6 +9,7 @@ import express from "../images/skills/7.jpg";
 import mongoDB from "../images/skills/8.png";
 import material from "../images/skills/9.png";
 import firebase from "../images/skills/10.jpg";
+import sass from "../images/skills/11.jpg";
 
 const Skills = () => {
   return (
@@ -18,6 +19,7 @@ const Skills = () => {
         <div className="skills-info">
           <img src={html5} alt="html5" />
           <img src={css3} alt="css3" />
+          <img src={sass} alt="css3" />
           <img src={boostrape} alt="boostrape" />
           <img src={react} alt="react" />
           <img src={JavaScript} alt="JavaScript" />
