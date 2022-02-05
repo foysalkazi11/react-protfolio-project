@@ -14,14 +14,17 @@ const AboutMe = () => {
               Hi. I'm <span>Md Foysal Kazi</span>
             </h1>
             <p className="sub-heading">
-              React Developer | MERN Stack Developer{" "}
+              Front-end Developer | React Developer{" "}
             </p>
             <p>
-            Focusing on React I am also skilled at MERN stack development. My goal is to continuously  improve my skill and serve quality work by writing clean  and reusable code using the latest web development technology.<br />
-
-            Proficient in creating user interfaces, writing and testing code, troubleshooting simple/complex issues, implementing new features based on client requirement or user feedback. 
-
-              
+              I am a front-end developer speciality in React. My goal is to
+              continuously improve my skill and serve quality work by writing
+              clean and reusable code using the latest web development
+              technology.
+              <br />
+              Proficient in creating user interfaces, writing and testing code,
+              troubleshooting simple/complex issues, implementing new features
+              based on client requirement or user feedback.
             </p>
           </div>
         </div>

@@ -4,38 +4,49 @@ import yourMoment from "../images/project pic/your-moments.png";
 // import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
 // import cloudServerSetup from "../images/project pic/cloud server setup.png";
 // import marketing from "../images/project pic/marketing.png";
-import mzEcom from '../images/project pic/MzEcom.png';
-import furniture from '../images/project pic/Jenni-Kayne.png';
-import reactMui from '../images/project pic/reactMui.png';
+import mzEcom from "../images/project pic/MzEcom.png";
+import furniture from "../images/project pic/Jenni-Kayne.png";
+import reactMui from "../images/project pic/reactMui.png";
+import bimaXpress from "../images/project pic/bimaXpress.png";
 import { FaSearch } from "react-icons/fa";
 const projectDetails = [
-  {
-    title: "MzEcom",
-    img: mzEcom,
-    technologyUse:"React, React-redux, Material-UI, Firebase authentication, Node JS, Express JS, MySQL.",
-    demoUrl: "https://mzecom.web.app/",
-    githubUrl: "https://github.com/mztechcorp/mzecom-client"
-  },
+  // {
+  //   title: "MzEcom",
+  //   img: mzEcom,
+  //   technologyUse:"React, React-redux, Material-UI, Firebase authentication, Node JS, Express JS, MySQL.",
+  //   demoUrl: "https://mzecom.web.app/",
+  //   githubUrl: "https://github.com/mztechcorp/mzecom-client"
+  // },
   {
     title: "Moment",
     img: yourMoment,
-    technologyUse:"React, React Context API, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
+    technologyUse:
+      "React, React Context API, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
+    demoUrl: "https://heuristic-heyrovsky-c7b3a2.netlify.app/",
+    githubUrl: "https://github.com/foysalkazi11/your-moments",
+  },
+  {
+    title: "BimaXpress",
+    img: bimaXpress,
+    technologyUse: "React, TypeScript, Tailwindcss",
     demoUrl: "https://your-moments.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/your-moments"
+    githubUrl:
+      "https://github.com/foysalkazi11/bimaXpress_react_tailwind_typescript",
   },
   {
     title: "Furniture Store",
     img: furniture,
-    technologyUse:"React, React Context API, Node JS, Express JS, MongoDB,JSON Web Token (JWT),",
+    technologyUse:
+      "React, React Context API, Node JS, Express JS, MongoDB,JSON Web Token (JWT),",
     demoUrl: "https://hopeful-goodall-7769f7.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/mern-furniture-store"
+    githubUrl: "https://github.com/foysalkazi11/mern-furniture-store",
   },
   {
     title: "MUI-Design",
     img: reactMui,
-    technologyUse:"React, Material UI",
+    technologyUse: "React, Material UI",
     demoUrl: "https://priceless-kare-1b24ef.netlify.app/",
-    githubUrl: "https://github.com/foysalkazi11/react-material-mobile-design"
+    githubUrl: "https://github.com/foysalkazi11/react-material-mobile-design",
   },
   // {
   //   title: "Cloud Server Setup",
@@ -59,8 +70,6 @@ const projectDetails = [
   //   demoUrl: "https://tradezilla-3da7a.web.app/",
   //   githubUrl: "https://github.com/mztechcorp/template_marketing"
   // },
-
- 
 ];
 
 const Project = () => {
@@ -70,7 +79,7 @@ const Project = () => {
     img: "",
     technologyUse: "",
     demoUrl: "",
-    githubUrl: ""
+    githubUrl: "",
   });
   const selectProject = (name) => {
     setIsOpen(true);
@@ -84,7 +93,7 @@ const Project = () => {
             img: project.img,
             technologyUse: project.technologyUse,
             demoUrl: project.demoUrl,
-            githubUrl: project.githubUrl
+            githubUrl: project.githubUrl,
           };
         });
       }
