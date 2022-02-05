@@ -7,10 +7,9 @@ const Typeds = () => {
       <Typed
         className="typed-text"
         strings={[
-          "Web Development",
-          "Web Design",
+          "Front-end Developer",
           "React Developer",
-          "MERN Stack Developer"
+          "MERN Stack Developer",
         ]}
         typeSpeed={40}
         backSpeed={50}
