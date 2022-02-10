@@ -22,7 +22,7 @@ const projectDetails = [
     img: yourMoment,
     technologyUse:
       "React, React Context API, Node JS, Express JS, MongoDB, Passport with JWT, Cloudinary, Mapbox",
-    demoUrl: "https://heuristic-heyrovsky-c7b3a2.netlify.app/",
+    demoUrl: "https://your-moments.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/your-moments",
   },
   {
