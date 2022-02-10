@@ -4,7 +4,7 @@ import yourMoment from "../images/project pic/your-moments.png";
 // import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
 // import cloudServerSetup from "../images/project pic/cloud server setup.png";
 // import marketing from "../images/project pic/marketing.png";
-import mzEcom from "../images/project pic/MzEcom.png";
+// import mzEcom from "../images/project pic/MzEcom.png";
 import furniture from "../images/project pic/Jenni-Kayne.png";
 import reactMui from "../images/project pic/reactMui.png";
 import bimaXpress from "../images/project pic/bimaXpress.png";
@@ -29,12 +29,12 @@ const projectDetails = [
     title: "BimaXpress",
     img: bimaXpress,
     technologyUse: "React, TypeScript, Tailwindcss",
-    demoUrl: "https://your-moments.netlify.app/",
+    demoUrl: "https://heuristic-heyrovsky-c7b3a2.netlify.app/",
     githubUrl:
       "https://github.com/foysalkazi11/bimaXpress_react_tailwind_typescript",
   },
   {
-    title: "Furniture Store",
+    title: "Jenni Kayne",
     img: furniture,
     technologyUse:
       "React, React Context API, Node JS, Express JS, MongoDB,JSON Web Token (JWT),",

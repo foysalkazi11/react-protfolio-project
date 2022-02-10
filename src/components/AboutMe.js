@@ -14,10 +14,10 @@ const AboutMe = () => {
               Hi. I'm <span>Md Foysal Kazi</span>
             </h1>
             <p className="sub-heading">
-              Front-end Developer | React Developer{" "}
+              Front-end Developer | React JS | Next JS{" "}
             </p>
             <p>
-              I am a front-end developer speciality in React. My goal is to
+              I am a front-end developer skill at React. My goal is to
               continuously improve my skill and serve quality work by writing
               clean and reusable code using the latest web development
               technology.
