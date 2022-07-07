@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { notification } from "../utility/notification";
 
 const patterns = {
-  email: /^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/
+  email: /^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/,
 };
 
 const ContractForm = () => {
@@ -11,13 +11,13 @@ const ContractForm = () => {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
   const [checkValue, setcheckValue] = useState({
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
   useEffect(() => {
     handleVlidate();
@@ -39,7 +39,7 @@ const ContractForm = () => {
       setcheckValue((pre) => {
         return {
           ...pre,
-          name: "please Enter Name"
+          name: "please Enter Name",
         };
       });
     }
@@ -60,7 +60,7 @@ const ContractForm = () => {
       setcheckValue((pre) => {
         return {
           ...pre,
-          subject: "Plase enter suject "
+          subject: "Plase enter suject ",
         };
       });
     }
@@ -72,7 +72,7 @@ const ContractForm = () => {
       setcheckValue((pre) => {
         return {
           ...pre,
-          message: "Plase enter message "
+          message: "Plase enter message ",
         };
       });
     }
@@ -118,7 +118,7 @@ const ContractForm = () => {
         name: "",
         email: "",
         subject: "",
-        message: ""
+        message: "",
       });
     } else {
       notification("error", "please enter all firld");
@@ -130,7 +130,7 @@ const ContractForm = () => {
         <h1>Have me make stuff for you.</h1>
         <form action="#" onSubmit={submit}>
           <div className="inline-form">
-            <div className="single-input">
+            <div className="single-input hoverAndFocus">
               <input
                 type="text"
                 name="name"
@@ -149,7 +149,7 @@ const ContractForm = () => {
                 </p>
               )}
             </div>
-            <div className="single-input">
+            <div className="single-input hoverAndFocus">
               <input
                 type="email"
                 name="email"
@@ -169,7 +169,7 @@ const ContractForm = () => {
               )}
             </div>
           </div>
-          <div className="single-input">
+          <div className="single-input hoverAndFocus">
             <input
               type="text"
               name="subject"
@@ -188,7 +188,7 @@ const ContractForm = () => {
               </p>
             )}
           </div>
-          <div className="single-input">
+          <div className="single-input hoverAndFocus">
             <textarea
               name="message"
               id="textarea"

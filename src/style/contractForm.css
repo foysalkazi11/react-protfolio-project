@@ -1,7 +1,6 @@
-.contract-raper{
+.contract-raper {
   background-color: var(--background-dark);
   color: #999;
-
 }
 .contract-section {
   display: flex;
@@ -9,70 +8,65 @@
   justify-content: flex-start;
   align-items: center;
 }
-.contract-section h1{
+.contract-section h1 {
   color: var(--fontWhite);
   text-align: center;
   font-weight: 300;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-@media(max-width:500px){
-  .contract-section h1{
+@media (max-width: 500px) {
+  .contract-section h1 {
     font-size: 1.5rem;
   }
 }
-.contract-section form{
+.contract-section form {
   width: 100%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  
 }
-.contract-section form .single-input{
- 
+.contract-section form .single-input {
   display: flex;
   flex-direction: column;
-  
 }
-.contract-section form .inline-form{
+.contract-section form .inline-form {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1rem;
-  
 }
-@media(max-width:600px){
-  .contract-section form .inline-form{
+@media (max-width: 600px) {
+  .contract-section form .inline-form {
     grid-template-columns: 1fr;
-    
   }
 }
 .contract-section form textarea,
-.contract-section form input{
+.contract-section form input {
   margin: 10px 0;
-  padding:  10px;
-  border: none;
+  padding: 10px;
+  border: 1px solid transparent;
   background-color: #282828;
   border-radius: 5px;
   font-size: 1rem;
   color: var(--fontWhite);
   outline-style: none;
-  font-family: 'Open Sans', sans-serif;
-  
-  
+  font-family: "Open Sans", sans-serif;
+  transition: var(--transition);
 }
 .contract-section form textarea:focus,
-.contract-section form input:focus{
+.contract-section form textarea:hover,
+.contract-section form input:focus,
+.contract-section form input:hover {
   background-color: #252525;
-  
+  border: 1px solid var(--buttonBorder);
 }
-.contract-section form textarea::placeholder{
+.contract-section form textarea::placeholder {
   font-size: 1rem;
-  
 }
 
-.contract-section form button{
-  font-family: 'Open Sans', sans-serif;
+.contract-section form button {
+  font-family: "Open Sans", sans-serif;
   border: 1px solid var(--buttonBorder);
   padding: 8px 1rem;
   background-color: transparent;
@@ -83,14 +77,15 @@
   text-transform: uppercase;
   color: var(--fontWhite);
   outline-style: none;
+  cursor: pointer;
 }
-.contract-section form button:hover{
+.contract-section form button:hover {
   background-color: var(--buttonHover);
 }
 
-.valid{
-  color: rgba(39, 174, 96,1.0);
+.valid {
+  color: rgba(39, 174, 96, 1);
 }
-.unvalid{
-  color: rgba(192, 57, 43,1.0);
+.unvalid {
+  color: rgba(192, 57, 43, 1);
 }
