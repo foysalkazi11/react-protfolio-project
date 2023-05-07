@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Popup from "./Popup";
 import yourMoment from "../images/project pic/your-moments.png";
-//import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
-import cloudServerSetup from "../images/project pic/cloud server setup.png";
-import marketing from "../images/project pic/marketing.png";
+import cocktaildbApiProject from "../images/project pic/cocktaildb-api-project.png";
+// import cloudServerSetup from "../images/project pic/cloud server setup.png";
+// import marketing from "../images/project pic/marketing.png";
 // import mzEcom from "../images/project pic/MzEcom.png";
 import furniture from "../images/project pic/Jenni-Kayne.png";
 //import reactMui from "../images/project pic/reactMui.png";
 //import bimaXpress from "../images/project pic/bimaXpress.png";
+import js_ecommerce from "../images/project pic/javaScript e-commerce project.png";
 import { FaSearch } from "react-icons/fa";
 const projectDetails = [
   // {
@@ -42,31 +43,39 @@ const projectDetails = [
     demoUrl: "https://hopeful-goodall-7769f7.netlify.app/",
     githubUrl: "https://github.com/foysalkazi11/mern-furniture-store",
   },
-  {
-    title: "Cloud Server Setup",
-    img: cloudServerSetup,
-    technologyUse:
-      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
-    demoUrl: "https://serverify-572b3.web.app/",
-    githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup",
-  },
-
-  {
-    title: "Marketing",
-    img: marketing,
-    technologyUse:
-      "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
-    demoUrl: "https://tradezilla-3da7a.web.app/",
-    githubUrl: "https://github.com/mztechcorp/template_marketing",
-  },
+  // {
+  //   title: "Cloud Server Setup",
+  //   img: cloudServerSetup,
+  //   technologyUse:
+  //     "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+  //   demoUrl: "https://serverify-572b3.web.app/",
+  //   githubUrl: "https://github.com/mztechcorp/template_Cloud_Server_Setup",
+  // },
 
   // {
-  //   title: "CocktailDB Api",
-  //   img: cocktaildbApiProject,
-  //   technologyUse:"React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
-  //   demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
-  //   githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project"
+  //   title: "Marketing",
+  //   img: marketing,
+  //   technologyUse:
+  //     "React,React-router-dom,Framer-motion,React-modal,React-slick,styled-componets,tailwindcss",
+  //   demoUrl: "https://tradezilla-3da7a.web.app/",
+  //   githubUrl: "https://github.com/mztechcorp/template_marketing",
   // },
+
+  {
+    title: "CocktailDB Api",
+    img: cocktaildbApiProject,
+    technologyUse:
+      "React,React-router-dom,React-hooks,React-context-api, CocktailDB Api,Css flexbox and grid",
+    demoUrl: "https://gifted-varahamihira-d66b31.netlify.app/",
+    githubUrl: "https://github.com/foysalkazi11/react-cocktail-api-project",
+  },
+  {
+    title: "JS Store",
+    img: js_ecommerce,
+    technologyUse: "Html, Css, JavaScript, Local storage",
+    demoUrl: "https://dreamy-visvesvaraya-971156.netlify.app",
+    githubUrl: "https://github.com/foysalkazi11/javaScript-ecommerce-site",
+  },
 
   // {
   //   title: "MUI-Design",
