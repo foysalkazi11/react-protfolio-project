@@ -17,16 +17,14 @@ const AboutMe = () => {
               Front-end Developer | JavaScript | React JS | Next JS | TypeScript
             </p>
             <p>
-              A highly skilled and experienced React Developer with a strong
-              background in building responsive and interactive user interfaces.
-              Proven track record of delivering high-quality web applications
-              using React and other modern technologies. Seeking a challenging
-              role in a dynamic organization to utilize my skills and experience
-              to contribute to the growth of the company.
-              <br />
-              Proficient in creating user interfaces, writing and testing code,
-              troubleshooting simple/complex issues, implementing new features
-              based on client requirement or user feedback.
+              Highly skilled and motivated Front-End Web Developer with almost 3
+              years of experience in delivering cutting-edge digital solutions.
+              Proficient in HTML, CSS, and JavaScript, with a strong focus on
+              React.js, Next.js, and Typescript for building performant and
+              scalable websites. Adept at integrating back-end services or
+              REST/GraphQL APIs to ensure seamless functionality. Committed to
+              adhering to the best software development practices and delivering
+              high-quality solutions.
             </p>
           </div>
         </div>
